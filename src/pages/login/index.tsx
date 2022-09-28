@@ -7,9 +7,9 @@ const Login: FC = () => {
         <LoginContainer>
             <Grid container className="login-wrapper">
                 <Grid item className="login">
-                    <TextField />
-                    <TextField />
-                    <Button variant="contained">Contained</Button>
+                    <TextField placeholder="Email"/>
+                    <TextField placeholder="Password"/>
+                    <Button variant="contained">Login</Button>
                 </Grid>
             </Grid>
         </LoginContainer>)

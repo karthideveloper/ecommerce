@@ -1,7 +1,8 @@
 import { FC } from "react"
+import ProductCard from "../../component/common/productCard"
 
 const Home: FC = () => {
-    return (<h1>Home</h1>)
+    return (<ProductCard/>)
 }
 
 
