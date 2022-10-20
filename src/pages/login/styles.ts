@@ -12,7 +12,7 @@ export const LoginContainer = styled("div")({
     ".login": {
       display: "flex",
       flexDirection: "column",
-      gap:'16px',
+      gap: "16px",
     },
   },
 });
