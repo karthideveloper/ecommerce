@@ -7,12 +7,12 @@ import { CardActionArea } from "@mui/material";
 
 const ProductCard = () => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="https://www.worldatlas.com/r/w960-q80/upload/ca/17/f9/green-iguana-florida-resized.jpeg"
           alt="green iguana"
         />
         <CardContent>
@@ -28,4 +28,4 @@ const ProductCard = () => {
     </Card>
   );
 };
-export default ProductCard
+export default ProductCard;
